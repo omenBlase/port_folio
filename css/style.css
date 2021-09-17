@@ -1,3 +1,23 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-image: url("../img/sitebg.jpg");
+  height: 100vh;
+  background-size: cover;
+  margin-top: -30rem;
+}
+
 body {
   margin: 10px;
 }
@@ -22,4 +42,12 @@ header h1 {
 h2 {
   font-size: 20px;
 }
+
+/*
+header {
+  + h1{ 
+    font-size:20px;
+  }
+}
+*/
 /*# sourceMappingURL=style.css.map */
